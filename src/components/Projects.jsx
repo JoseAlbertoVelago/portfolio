@@ -18,17 +18,17 @@ const Projects = () => {
           <Projectsitem img={ssn} title="Search Science News" />
         </Link>{" "}
         <div>
-          <a href="/public/weather/index.html">
+          <a href="/weather/index.html">
             <Projectsitem img={weatherapp} title="Weather App" />
           </a>
         </div>
         <div>
-          <a href="/public/toDoList/index.html">
+          <a href="/toDoList/index.html">
             <Projectsitem img={todolist} title="To do list" />
           </a>
         </div>
         <div>
-          <a href="/public/calculator/index.html">
+          <a href="/calculator/index.html">
             <Projectsitem img={calculator} title="Calculator" />
           </a>
         </div>
