@@ -10,7 +10,7 @@ const Aboutitem = ({ title, details }) => {
         <p className="text-xl font-mono p-3 pt-6">{details}</p>
         <img
           className="w-full max-w-[500px] mt-4 rounded-lg"
-          src="/src/assets/myself.png"
+          src="/myself.png"
           alt="Myself"
         />
       </div>

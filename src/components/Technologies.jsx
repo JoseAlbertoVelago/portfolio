@@ -79,7 +79,7 @@ const Technologies = () => {
         >
           <img
             className="w-20 h-20 object-contain"
-            src="/src/assets/tailwind.png"
+            src="/tailwind.png"
             alt="Tailwind CSS Logo"
           />
         </motion.div>
@@ -91,7 +91,7 @@ const Technologies = () => {
         >
           <img
             className="w-20 h-20 object-contain"
-            src="/src/assets/postgres.png"
+            src="/postgres.png"
             alt="Postgresql Logo"
           />
         </motion.div>
