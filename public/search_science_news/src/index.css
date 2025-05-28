@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Orbitron:wght@400..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: Orbitron, sans-serif;
+}
+
+@theme {
+  --font-jura: Jura, sans-serif;
+}
+
+@keyframes spin-full {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-full {
+  animation: spin-full 5s linear infinite;
+}
