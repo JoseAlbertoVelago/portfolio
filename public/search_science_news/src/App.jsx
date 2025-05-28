@@ -29,7 +29,7 @@ function App({ emoji }) {
         muted
         playsInline
         className="fixed top-0 left-0 w-full h-full object-cover "
-        src="/bgv.mp4"
+        src="/public/bgv.mp4"
       ></video>
 
       {/* Contenido principal */}
