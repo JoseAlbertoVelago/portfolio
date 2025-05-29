@@ -29,7 +29,7 @@ function Ssn() {
         muted
         playsInline
         className="fixed top-0 left-0 w-full h-full object-cover "
-        src="/public/search_science_news/public/bgv.mp4"
+        src="/bgv.mp4"
       ></video>
 
       {/* Contenido principal */}
