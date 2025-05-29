@@ -8,8 +8,7 @@ function Ssn() {
   const handleSearch = async () => {
     if (!query.trim()) return;
 
-    const apiKey = "5c896e18c7c24e32aae923a7acebd624"; // 🔑 Reemplaza esto con tu clave real
-    const url = `https://newsapi.org/v2/everything?q=${query}&language=en&sortBy=relevancy&pageSize=50&apiKey=${apiKey}`;
+    const url = `https://ssn-backend-ggaf.onrender.com`;
 
     try {
       const response = await fetch(url);
