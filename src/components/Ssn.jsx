@@ -8,12 +8,16 @@ function Ssn() {
   const handleSearch = async () => {
     if (!query.trim()) return;
 
-    const url = `https://ssn-backend-ggaf.onrender.com`;
+    const url = `https://ssn-backend-ggaf.onrender.com/search?q=${encodeURIComponent(
+      query
+    )}`;
 
     try {
       const response = await fetch(url);
+      if (!response.ok) throw new Error("Error en la respuesta de la API");
       const data = await response.json();
       setNews(data.articles);
+      setVisibleCount(10);
     } catch (error) {
       console.error("Error al obtener noticias:", error);
     }
