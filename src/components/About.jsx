@@ -3,10 +3,10 @@ import Aboutitem from "./Aboutitem";
 
 const data = [
   {
-    title: "Graphic Designer (Universidad de Sonora)",
+    title: "Studies - Graphic Designer (Universidad de Sonora)",
     duration: "4 years",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis incidunt distinctio id delectus doloribus atque aspernatur dignissimos voluptas sapiente ducimus laboriosam, omnis iusto beatae tenetur tempora! Perferendis qui unde commodi.",
+      "Hello, I'm a web developer. My name is Alberto Velarde. I love technology and enjoy solving problems. ",
   },
 ];
 const About = () => {
