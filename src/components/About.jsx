@@ -11,7 +11,7 @@ const data = [
 ];
 const About = () => {
   return (
-    <div id="about" className="max-w-[1800px]  md:pl-20  p-4 py-10 ">
+    <div id="about" className="max-w-[1800px]  md:pl-20  p-4 py-20 ">
       <h1 className="text-4xl font-mono text-center text-[#001b5e]">About</h1>
       <div className="">
         {data.map((item, idx) => (
