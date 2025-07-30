@@ -38,7 +38,7 @@ const Main = () => {
           </h2>
           <div className="flex justify-between pt-4 max-w-[80px] w-full gap-3">
             <div>
-              <a href="/cv.jpg">
+              <a href="https://www.linkedin.com/in/albertovelarde1011/">
                 <FaLinkedin className="cursor-pointer " size={30} />
               </a>
             </div>
@@ -48,7 +48,7 @@ const Main = () => {
               </a>
             </div>
             <div>
-              <a href="/cv.jpg">
+              <a href="/cv.pdf">
                 <FaFileAlt className="cursor-pointer " size={30} />
               </a>
             </div>
